@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>播客评论系统</title>
+</head>
+<body>
+    <h1>播客评论系统</h1>
+    <div class="podcast-card" id="podcast1">
+        <h2>播客 1</h2>
+        <p>这是播客 1 的描述。</p>
+        <div class="comments">
+            <h4>评论区</h4>
+            <textarea id="comment-podcast1" placeholder="发表评论..."></textarea>
+            <button onclick="submitComment('podcast1')">提交评论</button>
+            <ul id="comments-list-podcast1"></ul>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
